@@ -1,0 +1,16 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1024px;
+  margin: 10px auto;
+}
+
+.component-wrapper {
+  margin-bottom: 0.5rem;
+}
+
+.graph-wrapper {
+  max-width: 80%;
+}
