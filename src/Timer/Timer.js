@@ -87,7 +87,7 @@ const Timer = ({ autoStart, step, time }) => {
           color={isActive ? 'secondary' : 'primary'}
           onClick={startTimer}
         >
-          {isActive ? 'Pause' : 'Start'}
+          {isActive ? 'Stop' : 'Start'}
         </Button>
       </div>
 
